@@ -1,20 +1,13 @@
-# Rosemary
+# Rovarch CORE
 
-<a href="https://discord.gg/HUaPNwFwae">
-  <img alt="Discord" src="https://img.shields.io/discord/1558958766211338350?label=discord&cacheSeconds=3600">
-</a>
+Rovarch CORE is the core macOS compatibility runtime and high-level emulator powering [Rovarch](https://github.com/dratiux/Rovarch), forked from [Rosemary](https://github.com/microlift/rosemary).
 
-Rosemary is a compatibility layer and high level emulator hybrid that 
-runs macOS applications across architectures and operating systems, pairing
-up as both a replacement to Rosetta 2 when Apple removes it, and a way to run
-macOS apps on non-macOS systems.
-
-It combines two closely related projects:
+It runs macOS applications across architectures and operating systems, combining:
 
 * a high-level x86-64 emulator built on the [Microlift](https://github.com/microlift/microlift) binary lifter and JIT
 * a macOS compatibility layer that reimplements Darwin APIs and Apple frameworks on non-macOS hosts.
 
-Rosemary aims to make macOS software portable across macOS and non-macOS systems while
+Rovarch CORE aims to make macOS software portable across macOS and non-macOS systems while
 sharing one Mach-O loader, runtime, ABI bridge, and framework implementation. It
 is an experimental compatibility project rather than a drop-in replacement for
 Apple's Rosetta 2, and application coverage is still incomplete.
